@@ -219,7 +219,7 @@ Here is an example of my result on a test image:
 
 ### Pipeline (video)
 
-####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+#### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 The pipeline to process the video is implemented in code **cell 27**. Here the strategy for LookAhead and Reset is used to skip the "bad frame". The "smoothing" is also implemented by averaging the current polyfitted line coordinates with previous detected line. 
 
