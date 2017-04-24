@@ -84,15 +84,15 @@ Here's an example of my outputs after different threshold filters.
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform are in code **cell 9-10**. In **Cell 9** I picked four points from the left and right lanes.
-Assuming these four points constitute a rectangle. 
+The code for my perspective transform are in code **cell 9-10**. In **Cell 9** I picked four points from the left and right lanes. Assuming these four points constitute a rectangle. 
 
 | Source        | Destination   | Position   |
-|:-------------:|:-------------:| : ------:  |
+|:-------------:|:-------------:|:----------:|
 | 247, 691      | 250, 720      | left bottom|
 | 601, 447      | 250, 0        | left top   |
 | 679, 447      | 950, 0        | right top  |
 | 1061, 691     | 950, 720      | right bottom|
+
 
 The choice of destination points affects which parts of the original image to be mapped to new image. I adjusted them 
 several times to keep mostly the lanes but removing the trees and sky if possible.
