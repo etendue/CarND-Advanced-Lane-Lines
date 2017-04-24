@@ -198,8 +198,8 @@ To check if the vehicle is centered, we compare the distances/offsets of vehicle
 The curvature and offset to lanes are output in processed video at left top corner of image with following format:
 
 ``` python
-"Curv.:L686.5m,R683.2m"
-"Offset: to LLane:1.7m | to RLane:1.9m"
+"Radius of Curvature = 665.2 m"
+"Vehicle is 0.2m left of center"
 ```
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
