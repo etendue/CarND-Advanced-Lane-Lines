@@ -176,6 +176,7 @@ calculated based on following formula:
 
 $$R_{radius} = \dfrac{(1+(2Ay+B)^2)^{3/2}}{|2A|}$$
 
+(why github can not display the math latex???)
 
 
 $A,B,C$ are polynomial coefficients for lane line
@@ -229,7 +230,7 @@ Here's a [link to my video result](./output_video.mp4)
 
 ---
 
-###Discussion
+### Discussion
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
